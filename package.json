@@ -1,0 +1,13 @@
+{
+  "name": "karya-dham-app",
+  "version": "1.0.0",
+  "description": "Karya Dham frontend application",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}

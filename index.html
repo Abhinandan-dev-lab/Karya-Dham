@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-g" />
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎓</text></svg>">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Karya Dham</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              brandBlue: '#2c5282',
+              brandOrange: '#f6ad55',
+              brandBg: '#f7fafc',
+              brandText: '#2d3748',
+              successGreen: '#38a169',
+              aquaFuture: '#00cfff', // Kept for icons
+            },
+            fontFamily: {
+              poppins: ['Poppins', 'sans-serif'],
+              inter: ['Inter', 'sans-serif'],
+            }
+          }
+        }
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.1.1/",
+    "react": "https://esm.sh/react@^19.1.1",
+    "@google/genai": "https://esm.sh/@google/genai@^1.14.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.1.1/",
+    "express": "https://esm.sh/express@^5.1.0",
+    "url": "https://esm.sh/url@^0.11.4",
+    "path": "https://esm.sh/path@^0.12.7"
+  }
+}
+</script>
+</head>
+  <body class="bg-brandBg">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
